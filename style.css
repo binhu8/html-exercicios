@@ -1,0 +1,235 @@
+body{
+    background-color: rgb(133, 233, 240);
+}
+.cabecalho{
+    width: 98vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.navegacao{
+    width: 940px;
+    height: 50px;
+    border-radius: 7px;
+    background-color: #e64a19;
+    margin-top: 50px;
+}
+.botao1{
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    position: absolute;
+    top: 70px;
+    left: 370px;
+    z-index: 6;
+}
+.botao1:hover{
+    color: #e64a19;
+    background-color: ivory;
+    border: solid 5px ivory;
+    border-radius: 8px;
+    font-family: sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    position: absolute;
+    top: 65px;
+    left: 370px;    
+}
+.botao2{
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    position: absolute;
+    top: 70px;
+    left: 520px;
+}
+.botao2:hover{
+    color: #e64a19;
+    background-color: ivory;
+    border: solid 5px ivory;
+    border-radius: 8px;
+    font-family: sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    position: absolute;
+    top: 65px;
+    left: 520px;    
+}
+.botao3{
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    position: absolute;
+    top: 70px;
+    left: 620px;    
+}
+.botao3:hover{
+    color: #e64a19;
+    background-color: ivory;
+    border: solid 5px ivory;
+    border-radius: 8px;
+    font-family: sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    position: absolute;
+    top: 65px;
+    left: 620px;    
+}
+.logo{
+    position: relative;
+    bottom: 40px;
+    right:30px;
+    
+}
+
+.card{
+    width: 940px;
+    height: 587px;
+    border-radius: 7px;
+    background-color: #ffffff;
+    margin-top: px;
+    position: absolute;
+}
+
+.produto{
+    width: 300px;
+    height: 169px;
+    background-color: black;
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+.produto2{
+    width: 300px;
+    height: 169px;
+    background-color: rgb(131, 0, 0);
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+.produto3{
+    width: 300px;
+    height: 169px;
+    background-color: rgb(43, 0, 160);
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+.produto4{
+    width: 300px;
+    height: 169px;
+    background-color: black;
+    position: relative;
+    top: -557px;
+    left: 320px;
+    z-index: 10;
+}
+.produto5{
+    width: 300px;
+    height: 169px;
+    background-color: rgb(131, 0, 0);
+    position: relative;
+    top: -557px;
+    left: 320px;
+    z-index: 10;
+}
+.produto6{
+    width: 300px;
+    height: 169px;
+    background-color: rgb(43, 0, 160);
+    position: relative;
+    top: -557px;
+    left: 320px;
+    z-index: 10;
+}
+.produto7{
+    width: 300px;
+    height: 169px;
+    background-color: black;
+    position: relative;
+    top: -1122px;
+    left: 630px;
+    z-index: 10;
+}
+.produto8{
+    width: 300px;
+    height: 169px;
+    background-color: rgb(131, 0, 0);
+    position: relative;
+    top: -1122px;
+    left: 630px;
+    z-index: 10;
+}
+.produto9{
+    width: 300px;
+    height: 169px;
+    background-color: rgb(43, 0, 160);
+    position: relative;
+    top: -1122px;
+    left: 630px;
+    z-index: 10;
+}
+h2{
+    font-family: sans-serif;
+    color: #fff;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.568);
+    position: relative;
+    top: 80px;  
+    z-index: 10;
+}
+
+img{
+    position:absolute;
+    border-radius: 2px;
+}
+
+.botaoVerMais{
+    font-family: sans-serif;
+    background-color: #e64a19;
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    border: solid 5px #e64a19;
+    border-radius: 2px;
+    position: absolute;
+    top: 120px;
+    left: 100px;
+}
+.botaoVerMais:hover{
+    font-family: sans-serif;
+    background-color: ivory;
+    text-decoration: none;
+    font-size: 20px;
+    color: #e64a19;
+    border: solid 5px ivory;
+    border-radius: 2px;
+    position: absolute;
+    top: 120px;
+    left: 100px;
+}
+.desconto{
+    top: 10;
+    left: 250px;
+    z-index: 12;
+}
+.rodape{
+    width: 98vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.siteInfos{
+    width: 940px;
+    height: 50px;
+    border-radius: 7px;
+    background-color: #e64a19;
+    margin-top: 500px;
+}

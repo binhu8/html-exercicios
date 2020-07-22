@@ -1,0 +1,203 @@
+body{
+    background-color: rgb(133, 233, 240);
+}
+.cabecalho{
+    width: 98vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.navegacao{
+    width: 940px;
+    height: 50px;
+    border-radius: 7px;
+    background-color: #e64a19;
+    margin-top: 50px;
+}
+.botao1{
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    position: absolute;
+    top: 70px;
+    left: 370px;
+    z-index: 6;
+}
+.botao1:hover{
+    color: #e64a19;
+    background-color: ivory;
+    border: solid 5px ivory;
+    border-radius: 8px;
+    font-family: sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    position: absolute;
+    top: 65px;
+    left: 370px;    
+}
+.botao2{
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    position: absolute;
+    top: 70px;
+    left: 520px;
+}
+.botao2:hover{
+    color: #e64a19;
+    background-color: ivory;
+    border: solid 5px ivory;
+    border-radius: 8px;
+    font-family: sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    position: absolute;
+    top: 65px;
+    left: 520px;    
+}
+.botao3{
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    position: absolute;
+    top: 70px;
+    left: 620px;    
+}
+.botao3:hover{
+    color: #e64a19;
+    background-color: ivory;
+    border: solid 5px ivory;
+    border-radius: 8px;
+    font-family: sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    position: absolute;
+    top: 65px;
+    left: 620px;    
+}
+.logo{
+    position: relative;
+    bottom: 40px;
+    right:30px;
+    
+}
+
+.card{
+    width: 940px;
+    height: 587px;
+    border-radius: 7px;
+    background-color: #ffffff;
+    position: absolute;
+}
+
+h1{
+    font-family: sans-serif;
+    text-align: center;
+    position: relative;
+}
+h2{
+    font-family: sans-serif;
+    text-align: center;
+    position: relative;
+    right: 130px;
+}
+ul{
+    font-family: sans-serif;
+    position: relative;
+    left: 50px;
+    bottom: 12px;
+}
+.descricaoCard{
+    width: 500px;
+    height: 150px;
+    border: solid 2px #5a5959;
+    border-radius: 4px;
+    position: relative;
+    left: 190px;
+
+}
+.amostra{
+    width: 500px;
+    height: 250;
+    border-radius: 12px;
+    position: relative;
+    left: 190px;
+}
+a{
+    text-decoration: none;
+    font-size: 25px;
+    color: #fff;
+}
+a:hover{
+    text-decoration: none;
+    font-size: 25px;
+    color:#ffffff;
+}
+.botaoCompra{
+    font-family: sans-serif;
+    text-decoration: none;
+    background-color: #e64a19;
+    border: solid 5px #e64a19;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    bottom: 20px;
+    left: 190px;
+}
+.botaoCompra:hover{
+    font-family: sans-serif;
+    text-decoration: none;
+    background-color: rgb(0, 163, 68);
+    border: solid 5px rgb(0, 163,68);
+    border-radius: 5px;
+    color: #e64a19;
+    position: absolute;
+    bottom: 20px;
+    left: 190px;
+}
+
+.adicionarCarrinho{
+    font-family: sans-serif;
+    text-decoration: none;
+    background-color: #e64a19;
+    border: solid 5px #e64a19;
+    border-radius: 5px;
+    color: lightseagreen;
+    position: absolute;
+    bottom: 20px;
+    left: 550px;
+}
+.adicionarCarrinho:hover{
+    font-family: sans-serif;
+    text-decoration: none;
+    background-color: #1a53f0;
+    border: solid 5px #1a53f0;
+    border-radius: 5px;
+    color: lightseagreen;
+    position: absolute;
+    bottom: 20px;
+    left: 550px;
+}
+.rodape{
+    width: 98vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.siteInfos{
+    width: 940px;
+    height: 50px;
+    border-radius: 7px;
+    background-color: #e64a19;
+    margin-top: 600px;
+    position: absolute;
+    right: 200px;
+    left: 200px;
+}
